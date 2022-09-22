@@ -1,3 +1,5 @@
+![Challenge 03](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/images/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2022_09_2022%2010_19_21.png)
+
 // Declarar uma variável qualquer, que receba um objeto vazio.
 ?
 
