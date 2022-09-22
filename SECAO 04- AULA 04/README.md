@@ -123,4 +123,4 @@ Qual a cor atual do carro?
 
 ![Truthy values](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2004-%20AULA%2004/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2022_09_2022%2015_13_29.png)
 
-1[Descobrir se é truthy ou falsy](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2004-%20AULA%2004/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2022_09_2022%2015_14_07.png)
+![Descobrir se é truthy ou falsy](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2004-%20AULA%2004/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2022_09_2022%2015_14_07.png)
