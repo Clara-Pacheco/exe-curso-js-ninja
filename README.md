@@ -1,3 +1,6 @@
+# Javascript Ninja
+
+![Curso Javascript Ninja com Fernando Daciuk](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/images/javascript-ninja.jpg)
 
 O objetivo desse curso é ensinar JavaScript DE VERDADE! Se você já está há muito tempo tentando estudar por si só, mas não consegue compreender essa linda linguagem, esse curso é para VOCÊ! A ideia principal do curso é dar um Treinamento Ninja, para que a pessoa saia com todo o conhecimento necessário para se virar por conta própria com a linguagem, sem depender de bibliotecas ou frameworks.
 
