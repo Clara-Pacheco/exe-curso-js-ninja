@@ -1,3 +1,5 @@
+![Challenge 04](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/images/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2022_09_2022%2015_42_01.png)
+
 /*
 Declare uma variável chamada `isTruthy`, e atribua a ela uma função que recebe
 um único parâmetro como argumento. Essa função deve retornar `true` se o
@@ -116,3 +118,9 @@ Qual a cor atual do carro?
 
 // Quantas pessoas temos no carro?
 ?
+
+![Falsy values](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2004-%20AULA%2004/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2022_09_2022%2015_07_53.png)
+
+![Truthy values](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2004-%20AULA%2004/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2022_09_2022%2015_13_29.png)
+
+1[Descobrir se é truthy ou falsy](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2004-%20AULA%2004/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2022_09_2022%2015_14_07.png)
