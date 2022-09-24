@@ -67,3 +67,7 @@ Crie uma função chamada `convertToHex`, com as seguintes características:
 Tente mostrar o hexadecimal de 8 cores diferentes usando a função criada acima.
 */
 // ?
+
+## OPERADOR VÍRGULA
+
+![VIRGULE OPERATOR](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2006%20-%20AULA%2006/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2024_09_2022%2009_45_41.png)
