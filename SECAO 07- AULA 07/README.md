@@ -60,3 +60,13 @@ console.log( 'Números pares entre 100 e 120:' );
 
 console.log( 'Números ímpares entre 111 e 125:' );
 // ?
+
+![Challenge 07](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2007-%20AULA%2007/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2025_09_2022%2008_57_57.png)
+
+![Challenge 07](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2007-%20AULA%2007/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2025_09_2022%2009_07_52.png)
+
+![Challenge 07](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2007-%20AULA%2007/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2025_09_2022%2009_18_15.png)
+
+![Challenge 07](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2007-%20AULA%2007/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2025_09_2022%2010_16_33.png)
+
+![Challenge 07](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2007-%20AULA%2007/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2025_09_2022%2010_16_44.png)
