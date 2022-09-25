@@ -1,5 +1,7 @@
 # Challenge 07
 
+![Challenge 07](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2007-%20AULA%2007/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2025_09_2022%2010_27_42.png)
+
 /*
 Crie um array com 5 items (tipos variados).
 */
