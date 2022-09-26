@@ -110,7 +110,7 @@ console.log( 'O resultado da divisão é:' );
 console.log( 'O resto da divisão é:' );
 // ?  
 
-![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/images/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2015_50_20.png)
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2009-%20AULA%2009/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2014_29_38.png)
 
 ![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2009-%20AULA%2009/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2014_41_20.png)
 
