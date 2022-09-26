@@ -1,3 +1,6 @@
+![Challenge 08](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/images/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2008_07_15.png)
+
+
 /*
 Declare uma variável chamada `sum` e atribua a ela uma função chamada
 `calculateSum`. A função deve receber dois parâmetros e retornar a soma
@@ -73,3 +76,57 @@ Faça uma operação com cada uma das funções criadas acima, mostrando o resul
 no console.
 */
 // ?
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/1%20-%20Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_23_34.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/2%20-%20Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_54_26.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_24_26.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_24_42.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_25_31.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_28_36.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_32_08.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_32_49.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_33_01.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_33_24.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_35_19.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_35_19.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_37_29.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_37_46.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_38_51.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_38_59.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_39_17.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_42_09.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_43_30.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_44_37.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_45_02.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_46_52.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_56_49.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_57_19.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_57_45.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2008_00_18.png)
+
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2008_01_34.png)
