@@ -1,3 +1,5 @@
+# Challenge 08
+
 ![Challenge 08](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/images/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2008_07_15.png)
 
 
@@ -94,8 +96,6 @@ no console.
 ![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_32_49.png)
 
 ![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_33_01.png)
-
-![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_35_19.png)
 
 ![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2008-%20AULA%2008/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2026_09_2022%2007_35_19.png)
 
