@@ -1,6 +1,6 @@
 # Challenge 10
 
-![Challenge 10]()
+![Challenge 10](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/images/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2027_09_2022%2010_34_02.png)
 
 
 /*
@@ -117,32 +117,32 @@ a mensagem de erro será mostrada no console.
 */
 // ?
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2010%20-AULA%2010/1%20-%20Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2027_09_2022%2009_53_10.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2010%20-AULA%2010/2%20-%20Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2027_09_2022%2009_53_18.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2010%20-AULA%2010/3%20-%20Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2027_09_2022%2009_54_19.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2010%20-AULA%2010/4%20-%20Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2027_09_2022%2009_54_46.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2010%20-AULA%2010/5%20-%20Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2027_09_2022%2009_55_18.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2010%20-AULA%2010/6%20-%20Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2027_09_2022%2009_55_50.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2010%20-AULA%2010/7%20-%20Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2027_09_2022%2010_00_42.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2010%20-AULA%2010/8%20-%20Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2027_09_2022%2010_16_26.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2010%20-AULA%2010/9%20-%20Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2027_09_2022%2010_16_45.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2010%20-AULA%2010/10%20-%20Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2027_09_2022%2010_17_09.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2010%20-AULA%2010/11%20-%20Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2027_09_2022%2010_17_30.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2010%20-AULA%2010/12%20-%20Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2027_09_2022%2010_17_48.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2010%20-AULA%2010/13%20-%20Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2027_09_2022%2010_17_55.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2010%20-AULA%2010/14%20-%20Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2027_09_2022%2010_19_45.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2010%20-AULA%2010/15%20-%20Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2027_09_2022%2010_19_53.png)
