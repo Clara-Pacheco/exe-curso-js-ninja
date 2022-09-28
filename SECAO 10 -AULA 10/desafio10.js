@@ -137,10 +137,22 @@
   - O segundo, a função de soma, passando os dois operandos.
   - Se "sum" for "false", mostrar no console a mensagem de erro.
   */
+
+
+  if(sum){
+
+    number1 = 2;
+    number2 = 3;
+
+    console.log(`${showOperationMessage(operationSignal,number1,number2)} ${sum(number1,number2)}`)
+
+  }else{
+    console.log(`${showErrorMessage(operationSignal)}`)
+  }
   
-  sum(number1,number2)
+  // sum(number1,number2)
   
-  console.log(0,sum(number1,number2))
+  // console.log(0,sum(number1,number2))
 
  
   /*
@@ -151,19 +163,67 @@
   
   operationSignal = '-';
   let subtraction = calculator(operationSignal);
-  subtraction(10,2)
+
+  if(subtraction){
+
+    number1 = 10;
+    number2 = 5;
+
+    console.log(`${showOperationMessage(operationSignal,number1,number2)} ${subtraction(number1,number2)}`)
+
+  }else{
+    console.log(`${showErrorMessage(operationSignal)}`)
+  }
+
+  //-------------------------------------------------------------------------------------------------------
 
   operationSignal = '*';
   let multiplication = calculator(operationSignal);
-  multiplication(2,3);
+ 
+
+  if(multiplication){
+
+    number1 = 2;
+    number2 = 3;
+
+    console.log(`${showOperationMessage(operationSignal,number1,number2)} ${multiplication(number1,number2)}`)
+
+  }else{
+    console.log(`${showErrorMessage(operationSignal)}`)
+  }
+    //-----------------------------------------------------------------------------------------------------
 
   operationSignal = '/'
   let division = calculator(operationSignal);
-  division(10,5);
+  
 
+  if(division){
+
+    number1 = 20;
+    number2 = 10;
+
+    console.log(`${showOperationMessage(operationSignal,number1,number2)} ${division(number1,number2)}`)
+
+  }else{
+    console.log(`${showErrorMessage(operationSignal)}`)
+  }
+
+//-------------------------------------------------------------------------------------------------------
   operationSignal = '%'
   let mod = calculator(operationSignal);
-  mod(3,2);
+
+
+
+  if(mod){
+
+    number1 = 3;
+    number2 = 2;
+
+    console.log(`${showOperationMessage(operationSignal,number1,number2)} ${mod(number1,number2)}`)
+
+  }else{
+    console.log(`${showErrorMessage(operationSignal)}`)
+  }
   
 
   /*
@@ -171,11 +231,21 @@
   a mensagem de erro será mostrada no console.
   */
   
-   // Caso sum seja false:
+  operationSignal = '**'
+  mod = calculator(operationSignal);
 
-    operationSignal = '**'
-    let exponential = calculator(operationSignal)
-    console.log(exponential) //false
+
+
+  if(mod){
+
+    number1 = 3;
+    number2 = 2;
+
+    console.log(`${showOperationMessage(operationSignal,number1,number2)} ${mod(number1,number2)}`)
+
+  }else{
+    console.log(`${showErrorMessage(operationSignal)}`)
+  }
     
 
 });
