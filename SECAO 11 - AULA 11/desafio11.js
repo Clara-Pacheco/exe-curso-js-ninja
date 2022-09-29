@@ -68,8 +68,17 @@
   array chamado `numbers`. Se o contador for maior que 10, saia do loop.
   Mostre no console os números no array.
   */
-  console.log( 'De 0 a 10:' );
   
+  
+  let numbers = [];
+  for(let count = 0; count <=20 ; count++){
+    if(count > 10){
+      break;
+    }
+    numbers.push(count)  
+  }
+
+  console.log( `De 0 a 10: ${numbers}` );
 
   /*
   Faça outro loop de 0 a 20, que adicione a um array chamado `numbers` (já
@@ -77,7 +86,16 @@
   esses. Se o número for ímpar, pular para o próximo número.
   Mostrar no console os números do array.
   */
-  console.log( 'Pares de 0 a 20:' );
-  // ?
+  
+    numbers = [];
+    for(let c = 0; c <= 20; c++){
+      if(c % 2 !== 0){
+        continue;
+      }
+      numbers.push(c);
+    }
+
+    console.log( `Pares de 0 a 20: ${numbers}`);
+
 })
 
