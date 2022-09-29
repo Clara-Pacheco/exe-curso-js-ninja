@@ -27,7 +27,7 @@
     name: 'Lara',
     age: 18,
     weight: 54,
-    birthday: 26
+    birthday: '26/01'
   }
 
   /*
@@ -40,10 +40,13 @@
   'The person has [COUNTER] properties'
   */
  
+  let counter = 0
   for(let prop in person){
     console.log(`The ${prop} of person is ${person[prop]}`)
+    counter++
   }
 
+  console.log(`The person has ${counter} properties`)
   /*
   Crie uma função chamada `moreThan`, que vai verificar se a pessoa (objeto
   criado acima) é mais velha que a idade passada por parâmetro.
