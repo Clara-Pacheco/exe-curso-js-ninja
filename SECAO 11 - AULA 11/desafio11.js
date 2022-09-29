@@ -52,3 +52,5 @@ Mostrar no console os números do array.
 */
 console.log( 'Pares de 0 a 20:' );
 // ?
+
+
