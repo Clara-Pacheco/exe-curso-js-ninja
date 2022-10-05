@@ -1,6 +1,6 @@
 # Challenge 12
 
-![Challenge 12]()
+![Challenge 12](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/images/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2005_10_2022%2016_31_05.png)
 
 
 /*
@@ -104,34 +104,34 @@ Mostre todos os itens do array acima, odenados alfabéticamente.
 */
 // ?
 
-![Explanatory image]()
+![Explanatory image](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2012%20-%20AULA%2012/1.png)
 
-![Explanatory image]()
+![Explanatory image](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2012%20-%20AULA%2012/2.png)
 
-![Explanatory image]()
+![Explanatory image](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2012%20-%20AULA%2012/3.png)
 
-![Explanatory image]()
+![Explanatory image](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2012%20-%20AULA%2012/4.png)
 
-![Explanatory image]()
+![Explanatory image](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2012%20-%20AULA%2012/5.png)
 
-![Explanatory image]()
+![Explanatory image](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2012%20-%20AULA%2012/6.png)
 
-![Explanatory image]()
+![Explanatory image](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2012%20-%20AULA%2012/7.png)
 
-![Explanatory image]()
+![Explanatory image](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2012%20-%20AULA%2012/9.png)
 
-![Explanatory image]()
+![Explanatory image](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2012%20-%20AULA%2012/10.png)
 
-![Explanatory image]()
+![Explanatory image](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2012%20-%20AULA%2012/11.png)
 
-![Explanatory image]()
+![Explanatory image](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2012%20-%20AULA%2012/12.png)
 
-![Explanatory image]()
+![Explanatory image](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2012%20-%20AULA%2012/13.png)
 
-![Explanatory image]()
+![Explanatory image](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2012%20-%20AULA%2012/14.png)
 
-![Explanatory image]()
+![Explanatory image](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2012%20-%20AULA%2012/15.png)
 
-![Explanatory image]()
+![Explanatory image](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2012%20-%20AULA%2012/16.png)
 
 ![Explanatory image]()
