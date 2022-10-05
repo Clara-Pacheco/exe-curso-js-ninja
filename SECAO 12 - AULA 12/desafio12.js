@@ -12,9 +12,9 @@
   */
   
   let person = {
-    'name': 'Lara',
-    'lastName': 'Barros',
-    'age': 18
+    name: 'Lara',
+    lastName: 'Barros',
+    age: 18
   }
 
   /*
@@ -22,7 +22,13 @@
   Não use nenhuma estrutura de repetição, nem crie o array manualmente.
   */
   
-  console.log( `Propriedades de "person": ${Object.keys(person)}` );
+  console.log( `Propriedades de "person": ` );
+  console.log(Object.keys(person))
+
+
+  // O JS tem um objeto padrão chamado "Object" , interno do javascript, e esse 
+  // "Object" tem um método chamado ".keys()" . Esse método retorna os métodos
+  // e propriedades do objeto passado como parâmetro na forma de um array.
 
   /*
   Crie um array vazio chamado `books`.
@@ -37,52 +43,53 @@
   `pages`: Number
   */
   
-books.push({'name':'nome1','pages':200}, {'name':'nome2', 'pages': 300}, {'name': 'nome3', 'pages': 150});
+books.push({name:'nome1',pages:200}, {name:'nome2', pages: 300}, {name: 'nome3', pages: 150});
 
 
   /*
   Mostre no console todos os livros.
   */
   
-for(let book in books){
-  console.log( `\nLista de livros: ${JSON.parse(book)}` );
-}
-   
+console.log(books)
   /*
   Remova o último livro, e mostre-o no console.
   */
   
 let lastBook =  books.pop()
 
-console.log(`\nLivro que está sendo removido: ${JSON.stringify(lastBook)}` );
+console.log(`\nLivro que está sendo removido:` );
+
+console.log(lastBook)
 
 
   /*
   Mostre no console os livros restantes.
   */
-  
-  for(let book in books){
-    console.log( `\nAgora sobraram somente os livros: ${book}` );
-  }
+
+  console.log( `\nAgora sobraram somente os livros: ` ); 
+  console.log(books)
   
 
   /*
   Converta os objetos que ficaram em `books` para strings.
   */
   // ?
-  console.log( `\nLivros em formato string: ${JSON.stringify(books)}` );
-
+  books = JSON.stringify(books)
   /*
   Mostre os livros nesse formato no console:
   */
   
-  console.log( `\nLivros em formato string: ${JSON.stringify(books)}` );
+  console.log( `\nLivros em formato string: `);
+  console.log(books);
 
   /*
   Converta os livros novamente para objeto.
   */
   // ?
-  console.log( `\nAgora os livros são objetos novamente: ${JSON.parse(books)}` );
+
+  books = JSON.parse(books)
+  console.log( `\nAgora os livros são objetos novamente: ` );
+  console.log(books)
 
   /*
   Mostre no console todas as propriedades e valores de todos os livros,
@@ -91,8 +98,8 @@ console.log(`\nLivro que está sendo removido: ${JSON.stringify(lastBook)}` );
   */
   
       for(let book in books){
-        for(prop in book){
-          console.log(`${prop} : ${book.prop}`)
+        for(let prop in book){
+          console.log(`${prop} : ${book[prop]}`)
         }
       }
 
@@ -124,4 +131,4 @@ console.log(`\nLivro que está sendo removido: ${JSON.stringify(lastBook)}` );
   */
   
   console.log( `\nAgora em ordem alfabética: ${myName.sort()}` );
-});
+})();
