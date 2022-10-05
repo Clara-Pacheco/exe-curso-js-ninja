@@ -22,7 +22,7 @@
   Não use nenhuma estrutura de repetição, nem crie o array manualmente.
   */
   
-  console.log( `Propriedades de "person": ${JSON.stringify(person)}` );
+  console.log( `Propriedades de "person": ${Object.keys(person)}` );
 
   /*
   Crie um array vazio chamado `books`.

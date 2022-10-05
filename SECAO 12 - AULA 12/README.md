@@ -103,3 +103,35 @@ console.log( '\nAgora em ordem alfabética:' );
 Mostre todos os itens do array acima, odenados alfabéticamente.
 */
 // ?
+
+![Explanatory image]()
+
+![Explanatory image]()
+
+![Explanatory image]()
+
+![Explanatory image]()
+
+![Explanatory image]()
+
+![Explanatory image]()
+
+![Explanatory image]()
+
+![Explanatory image]()
+
+![Explanatory image]()
+
+![Explanatory image]()
+
+![Explanatory image]()
+
+![Explanatory image]()
+
+![Explanatory image]()
+
+![Explanatory image]()
+
+![Explanatory image]()
+
+![Explanatory image]()
