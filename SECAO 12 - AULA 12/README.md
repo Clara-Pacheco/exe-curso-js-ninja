@@ -134,4 +134,3 @@ Mostre todos os itens do array acima, odenados alfabéticamente.
 
 ![Explanatory image](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2012%20-%20AULA%2012/16.png)
 
-![Explanatory image]()
