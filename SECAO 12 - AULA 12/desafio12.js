@@ -97,7 +97,7 @@ console.log(lastBook)
       "[PROPRIEDADE]: [VALOR]"
   */
   
-      for(let book in books){
+      for(let book of books){
         for(let prop in book){
           console.log(`${prop} : ${book[prop]}`)
         }
