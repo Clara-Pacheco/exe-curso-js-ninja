@@ -92,13 +92,18 @@
     chamada `newSudeste`.
     */
     
-    let newSudeste = brasil.slice(5);
+    let newSudeste = brasil.splice(5);
+
+    // método slice não modifica o array original, mas o método splice modifica o array original;
 
     /*
     Adicione os estados do `nordeste` ao array `brasil`. Esses estados devem
     ficar no mesmo nível que os estados já existentes, não em um array separado.
     */
-    brasil.concat(nordeste);
+    brasil = brasil.concat(nordeste);
+
+    // o método concat( ) também não modifica o array original; por isso aqui estamos atribuindo a concatenação
+    // do array nordeste com o brasil a uma nova variável.
 
     /*
     Mostre no console os estados em `newSudeste`.
@@ -165,7 +170,9 @@
     */
     console.log( '\nCeará está incluído em `brasil`?' );
     
-    let isCearainclude = brasil.every(function(item){
+    let isCearainclude = brasil.some(function(item){
+      // aqui, ele não irá passar por todos os itens para verificar se todos eles são iguais a Ceará; 
+      // se apenas 1 deles for igua, a Ceará, ele retornará 'true'
       return item === 'Ceará';
 
     });
@@ -184,10 +191,12 @@
     */
     
     let map = newBrasil.map(function(item,index){
-      indexMap = index + 1;
-      itemMap = `${item} pertence ao Brasil`;
+    
+        item.id++;
+        item.estado += 'pertence ao Brasil';
 
-      return [{id:indexMap,estado:itemMap}];
+        return item;
+    
     });
 
     /*
@@ -203,7 +212,7 @@
     */
     
     let filter = map.filter(function(index,item){
-      if (index % 2 === 0) {
+      if (index % 2 === 0) { // o filter irá filtrar esse array baseado na expressão passada no if.
         return item 
       }
     })
@@ -215,4 +224,4 @@
     
 
     console.log(filter);
-})
+})();
