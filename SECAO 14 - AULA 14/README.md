@@ -1,6 +1,6 @@
 # Challenge 14
 
-![Challenge 14]()
+![Challenge 14](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/images/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2011_10_2022%2015_56_15.png)
 
 /*
 Envolva todo o código desse desafio em uma IIFE.
@@ -121,14 +121,14 @@ formato de String.
 console.log( '\njustMod2Or3 é um array? Se for, a representação dele em String é:' );
 // ?
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2014%20-%20AULA%2014/1.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2014%20-%20AULA%2014/2.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2014%20-%20AULA%2014/3.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2014%20-%20AULA%2014/4.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2014%20-%20AULA%2014/5%20.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2014%20-%20AULA%2014/6.png)
