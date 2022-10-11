@@ -128,8 +128,8 @@
     */
   
   let newBrasil = [];
-   brasil.forEach(function(index,item){
-       newBrasil.push([{id:index,estado:item }]);
+   brasil.forEach(function(item,index){
+       newBrasil.push({id:index,estado:item });
     })
 
 
@@ -192,10 +192,10 @@
     
     let map = newBrasil.map(function(item,index){
     
-        item.id++;
-        item.estado += 'pertence ao Brasil';
+       item.id++;
+       item.estado += ' pertence ao Brasil';
 
-        return item;
+       return item
     
     });
 
@@ -211,7 +211,7 @@
     ID par. Atribua o valor à uma variável chamada `filter`.
     */
     
-    let filter = map.filter(function(index,item){
+    let filter = map.filter(function(item,index){
       if (index % 2 === 0) { // o filter irá filtrar esse array baseado na expressão passada no if.
         return item 
       }
