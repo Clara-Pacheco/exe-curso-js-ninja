@@ -24,6 +24,12 @@
 
       console.log(numberObjects);
 
+      // ou
+      // let numberObjects = []
+      // for(let i =1, i <=10, i++){
+      // numberObjects.push({number:i});
+      //}
+
     /*
     Crie um array chamado `justNumbers`, que terá como elementos somente os
     números do array criado acima. Mostre esse novo array no console.
@@ -32,18 +38,39 @@
 
     
     let justNumbers = [];
-    numberObjects.filter(function(item){
-      justNumbers.push(item.number)
+    numberObjects.filter(function(item){ // o filter passa por todos os elementos do array filtrando pela condição
+      justNumbers.push(item.number)      // estipulada na função passada como parâmetro pelo filter.
       return justNumbers;
     })
 
     console.log(justNumbers);
+
+    //ou
+
+    console.log( '\nJust Numbers:' );
+
+    
+    let justNumbers2 = numberObjects.map(function(item){  // o map passa por todos os elementos do array
+       return item.number
+      
+    })
+
+    console.log(justNumbers2);
+
+    // No primeiro exercício, utilizamos o for para criação do objeto porque não tínhamos nenhum array para
+    // nos basear. Criamos do 0 - também foi criado manualmente, ou seja, object literal. Já no segundo exercício,
+    // tínhamos um array para nos basear, então podemos usar o map e o filter, que são métodos de array para criação de
+    // um novo array.
 
     /*
     Crie um novo array chamado `justMod2Or3`, que receberá do array criado acima
     somente os números que forem divisíveis por 2 ou 3. Mostre esse novo array
     no console.
     */
+
+    // Aqui iremos filtrar o array, e trazer somente alguns itens que precisamos - não precisamos usar todos,
+    // por isso utilizamos o método filter --- para filtrar somente os elementos que precisamosm do array em questão.
+
     console.log( '\nJust module of division by 2 or 3:' );
     
     let justMod2Or3 = [];
@@ -67,9 +94,9 @@
 
     console.log( '\nOperation:' );
     let operation = justMod2Or3.reduce(function(acumulado,atual,index,array){
-      return `${(acumulado + 1) * atual}`
+      return (acumulado + 1) * atual;
       
-    },0);
+    }, 0);
 
     console.log(operation);
 
@@ -80,11 +107,11 @@
     */
     console.log( '\nOperation 2:' );
     let operation2 = justMod2Or3.reduceRight(function(acumulado,atual,index,array){
-      return `${(acumulado + 1) * atual}`
+      return (acumulado + 1) * atual
       
     },0);
 
-    console.log(operation);
+    console.log(operation2);
 
     /*
     Crie um array chamado `name`. Cada elemento desse array deve ser uma sílaba
@@ -99,10 +126,18 @@
 
     let nameReducedWithP = name.reduce(function(acumulado,atual,index,array){
       
-      return `${acumulado + 'P' + atual}`;
-    })
+      return acumulado + 'P' + atual;
+    }, '');
 
     console.log(nameReducedWithP);
+
+    // Se iniciarmos com o 'P', ele dobrará o valor do 'P' no início - O valor acumulado será 'P' e iremos somar com
+    //  o 'P' mais o valor atual, que é o primeiro item do array, e não é o que queremos. Mas, se começarmos com uma string
+    // vazia, ele irá somar esse vazio com o 'P' mais o valor atual, já na segunda passada, irá somar o valor acumulado,
+    // que agora será 'Pma' com o 'P' mais o valor atual, que agora é 'ri'.... e assim por diante, juntando todoas as 
+    // sílabas com o 'P' antes de cada uma delas.
+
+   
 
     /*
     Crie uma variável chamada `inversedName`, que reduzirá o array em uma string
@@ -111,11 +146,22 @@
     console.log( '\nInversed Name:' );
     
     let inversedName = name.reduce(function(acumulado,atual,index,array){
-      return name.reverse().toString()
+      return name.reverse().join('')
 
     });
 
     console.log(inversedName);
+
+    //ou
+
+    console.log( '\nInversed Name:' );
+    
+    let inversedName2 = name.reduceRight(function(acumulado,atual,index,array){
+      return acumulado + atual;
+
+    });
+
+    console.log(inversedName2);
 
     /*
     Mostre no console o array `numberObjects`.
@@ -133,28 +179,35 @@
     o que acontece ;)
     */
     console.log( '\nExiste um { number: 2 } em numberObjects?' );
+
+    // Se o retorno do método indexOf ou lastIndexOf for -1, quer dizer que o item não encontra-se no array
+    // passado como parâmetro.
     
-    if (numberObjects.indexOf({number:2})){
+    if (numberObjects.indexOf({number:2}) > -1){
       console.log("Existe um objeto { number: 2 } em numberObjects!")
     }else {
       console.log("Não existe um objeto { number: 2 } em numberObjects :(")
     }
 
-    console.log(`JS irá procurar dentro do array 'numberObjects' o objeto
-    {number:2}, caso encontre, retornará o index desse objeto dentro do array.
-    Como o valor numérico do index desse objeto é um número Truthy, o resultado 
-    da análise da condição if é true e o bloco do if é executado. Caso contrário,
-    significa a não existência desse objeto nesse array, e uma mensagem de não
-    existência do mesmo será mostrada no console.`)
+    console.log(`O retorno é negativo porque o objeto que passamos como parâmetro - {number: 2}
+    é um objeto diferente do objeto {number:2} presente no array numberObjects. NENHUM OBJETO
+    EM JS É IGUAL AO OUTRO, PORQUE CADA OBJETO APONTA PARA UM ENDEREÇO DIFERENTE NA MEMÓRIA, POSSUEM
+    REFERÊNCIAS DIFERENTES.`)
 
-
+    // Para referenciarmos o mesmo objeto, precisamos atribuí-lo a uma variável e passar essa variável como
+    // parâmetro. Quando atribuimos um objeto a uma variável, estamos dizendo que essa variável irá apontar
+    // para o mesmo local na memória desse objeto, ou seja, irão possuir a mesma referência; ou chamar direto o 
+    // objeto com o índice específico para que o método indexOf verifique se naquele índice existe o valor que
+    // procuramos: if (numberObjects.indexOf(objectsNumber[1]) > -1){ . Aqui estariamos fazendo referência ao 
+    // objeto ele mesmo, e não a um outro objeto - por isso que funciona. 
+  
     /*
     Fazendo o mesmo do exercício acima, mas começando a buscar do último índice,
     será que obtemos um resultado diferente? Faça a busca a partir do índice 2.
     */
     console.log( '\nE buscando a partir do último índice, o { number: 2 } existe?' );
     
-    if (numberObjects.lastIndexOf({number:2}, 2)){
+    if (numberObjects.lastIndexOf({number:2}, 2) > -1){
       console.log("Existe um objeto { number: 2 } em numberObjects!")
     }else {
       console.log("Não existe um objeto { number: 2 } em numberObjects :(")
