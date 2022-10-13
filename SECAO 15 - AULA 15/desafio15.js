@@ -93,10 +93,10 @@
     */
     console.log( '\nIdade das pessoas:' );
     
-    console.log(pclara.getAge());
-    console.log(plara.getAge());
-    console.log(ppablo.getAge());
-
+    console.log(`${pclara.getFullName()} tem ${pclara.getAge()}`);
+    console.log(`${plara.getFullName()} tem ${plara.getAge()}`);
+    console.log(`${ppablo.getFullName()} tem ${ppablo.getAge()}`);
+   
     /*
     Adicione alguns anos à cada pessoa, e mostre no console a nova idade de
     cada um. A frase deverá ser no formato:
