@@ -24,25 +24,27 @@
       adicionados à idade original (age). Esse método deverá retornar o objeto
       que será instanciado.
     */
-    
-      function Person(name,lastName,age){
-        this.name = name;
-        this.lastName = lastName;
-        this.age = age;
-        getFullName = function(){
-          return this.name + this.lastName;
-        };
-        getAge = function() {
+        function Person(name,lastName,age){
+        this.name = name,
+        this.lastName = lastName,
+        this.age = age,
+        this.getFullName = function(){
+          return this.name + ' ' + this.lastName;
+        },
+        this.getAge = function() {
           return this.age;
-        };
-        addAge = function() {
-          this.age + arguments
-          return this
+        },
+        this.addAge = function() {
+          this.age += arguments;
+          return this.age;
+          
         }
         
       };
 
-      console.log(Person);
+      let person = new Person('Clara','Pacheco',39)
+
+      console.log(person)
 
     /*
     Crie 3 novos objetos usando o construtor acima. Os objetos serão novas
@@ -51,20 +53,33 @@
     Mostre as 3 novas pessoas criadas no console (Um console.log por pessoa).
     */
     console.log( 'Novas pessoas criadas à partir de Person:' );
-    // ?
+    
+    let pclara = new Person('Clara','Pacheco',39);
+    let plara = new Person('Lara','Martins',12);
+    let ppablo = new Person('Pablo','Macedo',27);
+
+    console.log(pclara);
+    console.log(plara);
+    console.log(ppablo);
 
     /*
     Mostre no console o nome completo de cada pessoa.
     */
     console.log( '\nNomes das pessoas:' );
-    // ?
+   
+    console.log(pclara.getFullName());
+    console.log(plara.getFullName());
+    console.log(ppablo.getFullName());
 
     /*
     Mostre no console as idades de cada pessoa, com a frase:
     - "[NOME COMPLETO] tem [IDADE] anos."
     */
     console.log( '\nIdade das pessoas:' );
-    // ?
+    
+    console.log(pclara.getAge());
+    console.log(plara.getAge());
+    console.log(ppablo.getAge());
 
     /*
     Adicione alguns anos à cada pessoa, e mostre no console a nova idade de
@@ -72,6 +87,14 @@
     - "[NOME COMPLETO] agora tem [NOVA IDADE] anos."
     */
     console.log( '\nNova idade das pessoas:' );
-    // ?
+
+    console.log(pclara.addAge(1));
+    console.log(`${pclara.getFullName()} agora tem ${pclara.addAge()}`);
+
+    console.log(plara.addAge(2));
+    console.log(`${plara.getFullName()} agora tem ${plara.addAge()}`);
+
+    console.log(ppablo.addAge(3));
+    console.log(`${ppablo.getFullName()} agora tem ${ppablo.addAge()}`)
 
 })();
