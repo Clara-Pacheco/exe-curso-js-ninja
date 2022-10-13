@@ -25,18 +25,27 @@
       que será instanciado.
     */
         function Person(name,lastName,age){
-        this.name = name,
-        this.lastName = lastName,
-        this.age = age,
-        this.getFullName = function(){
-          return this.name + ' ' + this.lastName;
-        },
-        this.getAge = function() {
+        this.name = name;
+        this.lastName = lastName;
+        this.age = age;
+        this.getFullName = function getFullName(){   //estamos atribuindo uma função
+          return this.name + ' ' + this.lastName;    //para uma propriedade de um objeto.
+        };
+        this.getAge = function getAge() {
           return this.age;
-        },
-        this.addAge = function() {
-          this.age += arguments;
-          return this.age;
+        };
+        this.addAge = function addAge() {
+          this.age += arguments[0];
+          return this;
+
+          /* Como não estamos passando nenhum parâmetro, como podemos pegar o 
+          único argumento que será passado na chamada do método? Através do
+          objeto arguments, que é um array-like - que é um objeto no formato de um
+          array - a diferença é que o arguments não tem métodos e propriedades
+          de um array de verdade - mas conseguimos usar a mesma notação de array
+          para pegar os argumentos. O primeiro argumento, como diz o enunciado,
+          será o argumento de índice 0 - a nova idade será a idade anterior mais
+          o valor do argumento no índice/posição 0*/
           
         }
         
@@ -45,6 +54,13 @@
       let person = new Person('Clara','Pacheco',39)
 
       console.log(person)
+
+      /* Os construtores criam um novo objeto - para referenciarmos o objeto que
+       será instanciado ,usamos o "this", que é um objeto implícito e a partir
+       dele, conseguimos criar as propriedades do objeto que vai ser instanciado
+       a partir desse construtor.
+
+       */
 
     /*
     Crie 3 novos objetos usando o construtor acima. Os objetos serão novas
@@ -89,12 +105,12 @@
     console.log( '\nNova idade das pessoas:' );
 
     console.log(pclara.addAge(1));
-    console.log(`${pclara.getFullName()} agora tem ${pclara.addAge()}`);
+    console.log(`${pclara.getFullName()} agora tem ${pclara.getAge()}`);
 
     console.log(plara.addAge(2));
-    console.log(`${plara.getFullName()} agora tem ${plara.addAge()}`);
+    console.log(`${plara.getFullName()} agora tem ${plara.getAge()}`);
 
     console.log(ppablo.addAge(3));
-    console.log(`${ppablo.getFullName()} agora tem ${ppablo.addAge()}`)
+    console.log(`${ppablo.getFullName()} agora tem ${ppablo.getAge()}`)
 
 })();
