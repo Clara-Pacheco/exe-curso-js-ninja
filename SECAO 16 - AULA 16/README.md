@@ -1,6 +1,6 @@
 # Challenge 16
 
-![Challenge 16]()
+![Challenge 16](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/images/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2014_10_2022%2015_00_48.png)
 
 /*
 1. Envolva todo o conteúdo desse desafio em uma IIFE.
@@ -73,72 +73,72 @@ Ex.: Nomes que deveriam funcionar: "Fernando", "RoBertO", "gabriEla", etc.
 console.log( '\nNome com letras intercaladas entre caixa alta e baixa:' );
 // ?
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/1.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/2.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/3.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/4.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/5.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/6.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/7.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/8.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/9.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/10.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/11.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/12.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/13.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/14.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/15.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/16.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/17.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/18.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/19.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/20.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/21.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/22.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/23.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/24.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/25.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/26.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/27.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/28.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/29.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/30.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/31.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/32.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/33.png)
 
-![Explanation and examples]()
+![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/34.png)
 
 ![Explanation and examples]()
