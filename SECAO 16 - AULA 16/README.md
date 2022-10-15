@@ -141,4 +141,4 @@ console.log( '\nNome com letras intercaladas entre caixa alta e baixa:' );
 
 ![Explanation and examples](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2016%20-%20AULA%2016/34.png)
 
-![Explanation and examples]()
+
