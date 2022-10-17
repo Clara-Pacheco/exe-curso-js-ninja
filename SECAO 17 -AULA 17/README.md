@@ -1,6 +1,6 @@
 # Challenge 17
 
-![Challenge 17]()
+![Challenge 17](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/images/Curso%20JavaScript%20Ninja%20_%20Udemy%20-%20Google%20Chrome%2017_10_2022%2010_05_22.png)
 
 /*
 1. Envolva todo o conteúdo desse desafio em uma IIFE.
