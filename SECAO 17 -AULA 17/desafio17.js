@@ -1,5 +1,5 @@
 (function(){
-  'use strict'
+   'use strict'
     /*
     1. Envolva todo o conteúdo desse desafio em uma IIFE.
 
@@ -92,40 +92,40 @@
     function getMonthNumber(monthName){
         switch(monthName.toUpperCase()){
           case 'JANEIRO':
-            return `O mês de ${monthName} é representado pelo número ${01}`;
+            return `O mês de ${monthName} é representado pelo número "01"`;
             break
           case 'FEVEREIRO':
-            return `O mês de ${monthName} é representado pelo número ${02}`;
+            return `O mês de ${monthName} é representado pelo número "02"`;
             break
           case 'MARÇO':
-            return `O mês de ${monthName} é representado pelo número ${03}`;
+            return `O mês de ${monthName} é representado pelo número "03"`;
             break
           case 'ABRIL':
-            return `O mês de ${monthName} é representado pelo número ${04}`;
+            return `O mês de ${monthName} é representado pelo número $"04"`;
             break
           case 'MAIO':
-            return `O mês de ${monthName} é representado pelo número ${05}`;
+            return `O mês de ${monthName} é representado pelo número "05"`;
             break
           case 'JUNHO':
-            return `O mês de ${monthName} é representado pelo número ${06}`;
+            return `O mês de ${monthName} é representado pelo número "06"`;
             break
           case 'JULHO':
-            return `O mês de ${monthName} é representado pelo número ${07}`;
+            return `O mês de ${monthName} é representado pelo número "07"`;
             break
           case 'AGOSTO':
-            return `O mês de ${monthName} é representado pelo número ${08}`;
+            return `O mês de ${monthName} é representado pelo número "08"`;
             break
           case 'SETEMBRO':
-            return `O mês de ${monthName} é representado pelo número ${09}`;
+            return `O mês de ${monthName} é representado pelo número "09"`;
             break
           case 'OUTUBRO':
-            return `O mês de ${monthName} é representado pelo número ${10}`;
+            return `O mês de ${monthName} é representado pelo número "10"`;
             break
           case 'NOVEMBRO':
-            return `O mês de ${monthName} é representado pelo número ${11}`;
+            return `O mês de ${monthName} é representado pelo número "11"`;
             break
           case 'DEZEMBRO':
-            return `O mês de ${monthName} é representado pelo número ${12}`;
+            return `O mês de ${monthName} é representado pelo número "12"`;
             break
           default:
             return 'Digite um nome válido para o mês';
@@ -145,9 +145,22 @@
     Com o que vimos até agora, você consegue fazer :D
     Mostre a regex no console.
     */
+
+    //Para pegar os números dinâmicamente:
+
+    // Pegar 2 números dinâmicamente: \d\d
+    // Pegar 3 números dinâmicamente: \d\d\d
+    // Pegar 6 números dinâmicamente \d\d\d\d\d\d
+
+    // Para pegar letras dinâmicamente:
+
+    // Pegar 1 letra dinâmicamente \w
+    // Pegar 4 letras dinâmicamente \w\w\w\w
+    // e assim por diante
+
     console.log( '\nRegex que vai fazer o match com as datas do texto:' );
     
-    let regexDate= text.match(/(13)|(junho)|(1804)|(18)|(julho)|(1875)/g);
+    let regexDate= (/(\d\d) de (junho|julho) de (\d\d\d\d)/g);
 
     console.log(regexDate);
 
@@ -159,9 +172,21 @@
     console o resultado.
     */
     console.log( '\nReplace de datas:' );
-   text.replace(/(dia)(mes)(ano)/g, function replaceDate(){
+  
+    function replaceDate(regex, date,month,year){
+      return `${date}/${getMonthNumber(month)}/${year}`
 
-    
-   })
 
-})()
+    }
+
+    console.log(text.replace(regexDate, replaceDate));
+
+    // Poderia ter sido feito:
+
+    console.log(text.replace((/(\d\d) de (junho|julho) de (\d\d\d\d)/g), function replaceDate(regex, date,month,year){
+      return `${date}/${getMonthNumber(month)}/${year}`
+
+    }))
+
+})();
+ 
