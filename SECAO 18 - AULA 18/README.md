@@ -88,6 +88,8 @@ corretas, para depois aplicar no código ;)
 console.log( '\nFazer replace dos textos das tags:' );
 // ?
 
+
+
 ![Examples and explanations]()
 
 ![Examples and explanations]()
