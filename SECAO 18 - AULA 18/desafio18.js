@@ -23,13 +23,36 @@
     console.log( 'Limpando CPFs:' );
     
     function cleanCPF(cpf){
-      return cpf.match(/[^-. ]/g)
+      return cpf.match(/[^-. x]/g)
     }
 
     console.log(cleanCPF("049-214 3421-1").join(''));
     console.log(cleanCPF("210.458.522-05").join(''));
     console.log(cleanCPF("735 500 794 - 22").join(''));
     console.log(cleanCPF("101.123-131x32").join(''));
+
+    // Também poderia ter sido feito:
+
+    console.log( 'Limpando CPFs:' );
+    
+    function cleanCPF2(cpf){
+      return cpf.replace(/\D/g,"")
+    }
+    // Será feita a substituição de tudo que for número( usando a negação
+    // com o barra D maiúsculo), para espaço em branco.
+  
+    // Para mostrar 4 console.log, ao invés de fazermos 4 console, podemos fazer
+    // uma estrutura de repetição, para otimizar o processo e evitar repetição
+    // de código
+
+    let cpfArray = ["049-214 3421-1", "210.458.522-05", "735 500 794 - 22", "101.123-131x32"]
+
+    cpfArray.forEach(function(cpf){
+      console.log(cleanCPF2(cpf)) // ou poderia ser chamada a cleanCPF também 
+    })
+
+    // É preferencial usar forEach ou map para percorrer um array ao invés
+    // de for ou while. 
 
     /*
     Usando os CPFs limpos acima, deixe-os com a formatação correta de CPF.
@@ -38,13 +61,45 @@
     */
     console.log( '\nFormatando CPFs corretamente:' );
 
+    // Usando a função de callback no método replace:
+    // Chamando um por um no console.log:
+
      cpf1 = cleanCPF("049-214 3421-1").join(''); // 04921434211'
-     cpf1.replace(/(\d{3}) (\d{3}) (\d{3}) (\d{2})/g), function(cpf1, g1,g2,g3,g4){
+     console.log(cpf1.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/g, function(cpf1, g1,g2,g3,g4){
       
       return g1 + "." + g2 + "." + g3 + "-" + g4
+     }));
+
+     cpf2 = cleanCPF("210.458.522-05").join(''); // 04921434211'
+     console.log(cpf2.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/g, function(cpf1, g1,g2,g3,g4){
+      
+      return g1 + "." + g2 + "." + g3 + "-" + g4
+     }));
+
+     cpf3 = cleanCPF("735 500 794 - 22").join(''); // 04921434211'
+     console.log(cpf3.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/g, function(cpf1, g1,g2,g3,g4){
+      
+      return g1 + "." + g2 + "." + g3 + "-" + g4
+     }));
+
+     cpf4 = cleanCPF("101.123-131x32").join(''); // 04921434211'
+     console.log(cpf4.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/g, function(cpf1, g1,g2,g3,g4){
+      
+      return g1 + "." + g2 + "." + g3 + "-" + g4
+     }));
+
+     // ou poderíamos fazer sem a função de callback
+
+     cpfArray = ["049-214 3421-1", "210.458.522-05", "735 500 794 - 22", "101.123-131x32"]
+
+     cpfArray.forEach(function(cpf){
+       console.log(cleanCPF2(cpf).replace(/(\d{3})(\d{3})(\d{3})(\d{2})/, '$1.$2.$3-$4'));
      }
 
-     console.log(cpf1)
+     // O $1 captura o grupo 1, o $2 captura o grupo 2, o $3 captura o grupo 3 e assim
+     // e assim por diante. A função de callback do método regex também aceita o um
+     // parâmetro de captura total, ou seja, a regex inteira, sem ser dividida em grupos.
+ 
 
     /*
     Crie uma expressão regular que faça match com as palavras "junho" ou "julho",
