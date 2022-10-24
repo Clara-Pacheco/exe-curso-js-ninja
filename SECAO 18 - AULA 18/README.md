@@ -90,6 +90,8 @@ corretas, para depois aplicar no código ;)
 console.log( '\nFazer replace dos textos das tags:' );
 // ?
 
+<br>
+<br>
 
 
 ![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2018%20-%20AULA%2018/1.png)
