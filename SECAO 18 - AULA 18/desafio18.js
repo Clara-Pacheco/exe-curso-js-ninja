@@ -94,7 +94,9 @@
 
      cpfArray.forEach(function(cpf){
        console.log(cleanCPF2(cpf).replace(/(\d{3})(\d{3})(\d{3})(\d{2})/, '$1.$2.$3-$4'));
-     }
+     })
+
+     // ATENÇÃO: NÃO PODE HAVER ESPAÇOS ENTRE OS GRUPOS DE CAPTURAS!
 
      // O $1 captura o grupo 1, o $2 captura o grupo 2, o $3 captura o grupo 3 e assim
      // e assim por diante. A função de callback do método regex também aceita o um
@@ -118,7 +120,10 @@
 
     let text = "Os meses de janeiro, junho e julho começam com a letra j."
 
-   console.log(text.match(/ju[n|l]ho/g) ? ["junho","julho"] : null)
+   console.log(text.match(/ju[nl]ho/g) ? ["junho","julho"] : null)
+
+   // DENTRO DE UMA LISTA [], CARACTERES ESPECIAIS SÃO ESCAPADOS -  A LISTA NÃO
+   // OS TRATA COMO CARACTERES ESPECIAIS.
      
     /*
     Crie uma expressão regular que faça o match com a abertura de uma tag
@@ -130,11 +135,11 @@
     ["<div>", "<section>", "<blockquote>"]
     */
     console.log( '\nMatch com a abertura de uma tag HTML:' );
-    let regex2 = /<\w{3,10}>/g
+    let regex2 = /<\W+>/g
 
     let text2 = "<div><section><blockquote>Texto <img /></blockquote></section></div>"
 
-    console.log(text2.match(/<\w{3,10}>/g))
+    console.log(text2.match(/<\w+>/g))  // + = um ou mais caracteres
 
     /*
     Crie uma expressão regular que faça o match com uma tag HTML vazia, casando
@@ -173,5 +178,6 @@
     
     let text4 = "<h1>Título da página</h1><p>Este é um parágrafo</p><footer>Rodapé</footer>"
     
-    text4.replace()
+    console.log(text4.replace(/<(\w+)>([^<]+)<\/\w+>/g,
+     `<$1>O texto dentro da tag "$1" é "$2"</$1> \n` ))
 })();
