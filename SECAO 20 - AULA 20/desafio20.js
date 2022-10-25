@@ -19,24 +19,24 @@
     Com a resposta, mostre um alert com a mensagem "Bem vindo [USERNAME]!"
     */
     
-    // let username = prompt("Qual é o seu nome?")
+    let username = prompt("Qual é o seu nome?")
 
-    // if(username){
-    //   alert(`Bem vindo ${username}`)
-    // }else{
-    //   username = 'Desconhecido';
-    // }
+    if(username){
+      alert(`Bem vindo ${username}`)
+    }else{
+      username = 'Desconhecido';
+    }
 
-    // console.log(username);
+    console.log(username);
 
     /*
     Agora, pergunte ao usuário "Qual o seu e-mail?", atribuindo o resultado à
     uma variável chamada `email`.
     */
     
-    // let email = prompt('Qual é o seu email?')
+    let email = prompt('Qual é o seu email?')
 
-    // console.log(email);
+    console.log(email);
 
     /*
     - Selecione o input de "Nome", atribuindo-o à uma variável chamada
@@ -79,8 +79,8 @@
     entrados pelo usuário.
     */
     
-    // $inputUsername.value = username;
-    // $inputEmail.value = email;
+    $inputUsername.value = username;
+    $inputEmail.value = email;
 
     /*
     Adicione um listener de evento de click ao botão que faça o seguinte:
