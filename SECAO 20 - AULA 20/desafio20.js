@@ -19,24 +19,24 @@
     Com a resposta, mostre um alert com a mensagem "Bem vindo [USERNAME]!"
     */
     
-    let username = prompt("Qual é o seu nome?")
+    // let username = prompt("Qual é o seu nome?")
 
-    if(username){
-      alert(`Bem vindo ${username}`)
-    }else{
-      username = 'Desconhecido';
-    }
+    // if(username){
+    //   alert(`Bem vindo ${username}`)
+    // }else{
+    //   username = 'Desconhecido';
+    // }
 
-    console.log(username);
+    // console.log(username);
 
     /*
     Agora, pergunte ao usuário "Qual o seu e-mail?", atribuindo o resultado à
     uma variável chamada `email`.
     */
     
-    let email = prompt('Qual é o seu email?')
+    // let email = prompt('Qual é o seu email?')
 
-    console.log(email);
+    // console.log(email);
 
     /*
     - Selecione o input de "Nome", atribuindo-o à uma variável chamada
@@ -104,7 +104,9 @@
     Caso contrário, mostre um alerta com a mensagem:
         - "Não enviado."
     */
+
     
+
       $button.addEventListener('click', function(event){
         event.preventDefault();
         if($inputUsername.value === null){
@@ -113,13 +115,23 @@
         if($inputEmail.value === null){
           alert("Preencha o email")
         }
+        if(isValidEmail($inputEmail) === false){
+          alert("Entre com um e-mail válido!")
+        }
         if($message.value === null){
           alert("Preencha a mensagem")
         }
-        if($inputUsername.value === null){
-          alert("Preencha o nome do usuário!")
+
+        let confirmation = confirm("Tem certeza que deseja enviar o formulário?")
+        if (confirmation === true){
+          alert("Enviado com sucesso!")
+        }else{
+          alert("Não enviado.")
         }
       })
+
+     
+
     /*
     Crie uma função chamada `isValidEmail`, que será usada na validação do
     envio do formulário.
@@ -144,6 +156,11 @@
         - "rita-marica@titica.a.b"
         - "agua_@evida.br.com"
     */
-    // ?
+    
+        function isValidEmail($inputEmail){
+         let email = $inputEmail.value;
+         return email.match(/(\w+\.\w+\+)?\w+@\w+.\w{2,}(\.\w{2})?/gm) ? true: false; 
+
+        }
 
 })(window,document);
