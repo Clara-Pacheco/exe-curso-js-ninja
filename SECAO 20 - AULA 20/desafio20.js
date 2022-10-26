@@ -1,4 +1,4 @@
-(function(){
+(function(window,document){
   'use strict';
     /*
     1. Envolva todo o conteúdo desse desafio em uma IIFE.
@@ -94,9 +94,11 @@
         - "Preencha a mensagem!"
     - Se o campo de "Email" for inválido, mostrar:
         - "Entre com um e-mail válido!"
+
     2. Para verificar se o e-mail é válido use a função `isValidEmail`, passando
     o e-mail que foi entrado no campo de "Email" por parâmetro. (A função
     `isValidEmail` será criada logo abaixo).
+
     3. Se tudo estiver OK, pergunte ao usuário:
         - "Tem certeza que deseja enviar o formulário?"
     Se for confirmado, mostre um alerta com a mensagem:
@@ -105,21 +107,19 @@
         - "Não enviado."
     */
 
-    
-
       $button.addEventListener('click', function(event){
         event.preventDefault();
-        if($inputUsername.value === null){
-          alert("Preencha o nome do usuário!")
+        if($inputUsername.value === ''){
+          return alert("Preencha o nome do usuário!")
         }
-        if($inputEmail.value === null){
-          alert("Preencha o email")
+        if($inputEmail.value === ''){
+          return alert("Preencha o email")
         }
         if(isValidEmail($inputEmail) === false){
-          alert("Entre com um e-mail válido!")
+          return alert("Entre com um e-mail válido!")
         }
-        if($message.value === null){
-          alert("Preencha a mensagem")
+        if($message.value === ''){
+          return alert("Preencha a mensagem")
         }
 
         let confirmation = confirm("Tem certeza que deseja enviar o formulário?")
@@ -158,9 +158,15 @@
     */
     
         function isValidEmail($inputEmail){
-         let email = $inputEmail.value;
-         return email.match(/(\w+\.\w+\+)?\w+@\w+.\w{2,}(\.\w{2})?/gm) ? true: false; 
+         let emailTest = $inputEmail.value;
+         return (/^(?:\w+\.\w+\+)?\w+@\w+.\w{2,}(?:\.\w{2})?$/gm).test(emailTest); 
 
         }
+
+        // É necessário iniciar a Regex com o sinal de ^ e terminar com o sinal de $, para especificar
+        // que a regex tem que começar dessa forma e terminar dessa forma.
+
+        // regex.test(string) - se a regex testada for encontrada dentro da string passada como parâmetro, 
+        // ele retorna true. Se não for encontrada, retorna false
 
 })(window,document);
