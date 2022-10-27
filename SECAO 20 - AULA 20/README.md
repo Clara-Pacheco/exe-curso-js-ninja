@@ -104,3 +104,99 @@ Alguns e-mails inválidos:
     - "agua_@evida.br.com"
 */
 // ?
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/1.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/2.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/3.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/4.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/5.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/6.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/7.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/8.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/9.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/10.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/11.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/12.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/13.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/14.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/15.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/16.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/17.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/18.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/18.1.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/19.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/20.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/21.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/21.1.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/22.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/23.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/24.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/25.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/26.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/27.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/28.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/29.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/30.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/31.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/32.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/33.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/34.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/35.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/36.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/37.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/38.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/39.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/40.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/41.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/42.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/43.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/44.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/45.png)
+
+![Examples and explanations](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/SECAO%2020%20-%20AULA%2020/46.png)
