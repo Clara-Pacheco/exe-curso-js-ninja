@@ -35,6 +35,8 @@ let resetButton = document.querySelector('[data-js="reset"]');
 let temporizer;
 let counter = 0
 
+cronometer.value = 0
+
 function timer(){
   counter++;
   cronometer.value = counter;
