@@ -1,6 +1,6 @@
 #Challenge 20
 
-![Challenge 20]()
+![Challenge 20](https://github.com/Clara-Pacheco/exe-curso-js-ninja/blob/main/images/Rocketseat%20_%20Gather%20-%20Google%20Chrome%2027_10_2022%2020_30_05.png)
 
 /*
 1. Envolva todo o conteúdo desse desafio em uma IIFE.
