@@ -62,6 +62,9 @@
       });
     }
 
+    // É possível também fazer : return Number(acumulated) + Number(actual); para converter
+    // as strings de números - '1' -  em números - 1 - ;
+
     console.log(sum(1,2,3,4,5));
 
     // Quando usamos o sinal de + como unário, ele irá converter o valor em questão
