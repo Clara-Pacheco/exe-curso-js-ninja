@@ -36,6 +36,16 @@
     console.log(person1.fullName());
     console.log(person2.fullName());
 
+    // Poderíamos ter criado os objetos literais acima e uma função nomeada
+    // getFullName, com o mesmo retorno: 'return this.name + ' ' + this.lastName'
+    // mas, ao invokar a função, ivocaríamos com o método call(), porque ele
+    // permite a passagem do 'this', ou seja, do objeto
+    // getFullName.call(person1) e getFullName.call(person2)
+
+    // Método call() é um método de FUNÇÃO. Invokar uma função com o call é muito poderoso,
+    // porque podemos passar quem será o 'this' daquela função, ou seja, quem será o 
+    // objeto da função.
+
 
     /*
     Crie uma função chamada `sum`. Essa função pode receber uma lista de
@@ -47,12 +57,17 @@
     
     function sum(){
       console.log(arguments);
-      Array.prototype.reduce.call(arguments,function(acumulated,actual, index){
-      return acumulated + actual;
+      return Array.prototype.reduce.call(arguments,function(acumulated,actual, index){
+        return acumulated + actual;
       });
     }
 
     console.log(sum(1,2,3,4,5));
+
+    // A função sum() retorna Array.prototype.reduce.call() e a função de callback
+    // passada como parâmetro para o método reduce retorna a soma de todos os 
+    // valores do arguments. 
+    
     /*
     Mostre no console que a função acima funciona, invocando-a em 3 console.log
     diferentes, com quantidades variáveis de parâmetros passados.
