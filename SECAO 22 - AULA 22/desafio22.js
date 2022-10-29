@@ -68,9 +68,21 @@
     entrados pelo usuário. Mostre para o usuário a seguinte frase:
     "Entre com alguns números que serão somados:"
     */
-    let userEntry = [];
-    userEntry.push = prompt('Entre com alguns números que serão somandos: ')
 
+    const numberInput = document.querySelector('[data-js="number"]');
+    const button = document.querySelector('[data-js="button"]');
+
+    let userEntry = [];
+
+    alert('Entre com alguns números que serão somandos: ')
+
+    button.addEventListener('click', function(){
+      userEntry.push(numberInput.value);
+      numberInput.value = ' ';
+    })
+     
+    console.log(userEntry);
+    
     /*
     Mostre no console o valor entrado pelo usuário:
     */
@@ -85,20 +97,36 @@
     console.log( '\nFunção que limpa entrada do usuário (somente números):' );
     
     let justNumbers = function(string){
-      return
+      return string.match(/\d/g);
     }
+
+    console.log(justNumbers.toString());
 
     /*
     Usando a função acima, faça a limpeza dos valores entrados pelo usuário,
     atribuindo o resultado à uma variável `numbers`.
     */
     console.log( '\nEntrada do usuário limpa. Somente números:' );
-    // ?
+    
+    console.log(userEntry.toString());
+
+    let numbers = justNumbers(userEntry.toString());
+
+    console.log(numbers);
 
     /*
     Agora com o array de números, utilize a função `sum` para somar todos os
     números desse array e mostre o resultado no console.
     */
     console.log( '\nSomar números entrados pelo usuário:' );
-    // ?
+    
+    function sum(){
+      console.log(arguments);
+      Array.prototype.reduce.apply(arguments,function(acumulated,actual, index){
+      return acumulated + actual;
+      });
+    }
+
+    sum(userEntry);
+
   })();
