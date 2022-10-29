@@ -58,16 +58,18 @@
     function sum(){
       console.log(arguments);
       return Array.prototype.reduce.call(arguments,function(acumulated,actual, index){
-        return acumulated + actual;
+        return +acumulated + +actual;
       });
     }
 
     console.log(sum(1,2,3,4,5));
 
+    // Quando usamos o sinal de + como unário, ele irá converter o valor em questão
+    // para número.
+
     // A função sum() retorna Array.prototype.reduce.call() e a função de callback
     // passada como parâmetro para o método reduce retorna a soma de todos os 
     // valores do arguments. 
-    
     /*
     Mostre no console que a função acima funciona, invocando-a em 3 console.log
     diferentes, com quantidades variáveis de parâmetros passados.
@@ -135,13 +137,24 @@
     */
     console.log( '\nSomar números entrados pelo usuário:' );
     
-    function sum(){
-      console.log(arguments);
-      Array.prototype.reduce.apply(arguments,function(acumulated,actual, index){
-      return acumulated + actual;
-      });
-    }
+    console.log(sum.apply('', numbers));
+    
+    // A função sum() não recebe nenhum parâmetro; ela pega o 'arguments',
+    // e passa para o reduce, através da invokação da função reduce pelo
+    // método call(), para ser somado seus valores. Só que o call não recebe, 
+    // como parâmetro, arrays, ele recebe os argumentos 1 a 1.
+    // Como fazer para passar o array 'numbers' então como parâmetro para
+    // a função sum()?
+    // Com o MÉTODO APPLY, que, ao invés de passar os argumentos 1 a 1, passa
+    // um array como argumentos para a função.
 
-    sum(userEntry);
+    // Como não existe o 'this', podemos passar como valor vazio ''
+    // Quando somamos pela primeira vez, o JS fez uma concatenação dos números,
+    // e não uma soma, ou seja, o array numbers é composto de strings '1','2','3' etc...
+    // Como fazer para garantir que os valores do array numbers serão numéricos?
+    // Quando usamos o sinal + como unário, garantimos que o valor será número, então
+    // na função sum(), usamos o sinal unário juntamente com os valores de acumulado e atual, 
+    // antes de serem somados. Dessa forma garantimos que estamos lidando com numéricos de números
+    // e não strings de números.
 
   })();
