@@ -71,6 +71,30 @@
     // console.log(buttonDivision)
     // console.log(buttonCE)
     // console.log(buttonIqual)
+    //console.log(allbuttons);
 
-    console.log(allbuttons);
+    // Cada um dos botões de números são um elemento no array-like, e, precisamos
+    // atribuir um evento a cada botão, ou seja, cada vez que um botão for precisionado, 
+    // o número correspondente ao botão precisa ser exibido no vizor.
+    // Como fazer para atrelar um evento a cada botão? Adicionar um evento um por um,
+    // ou usar algum laço, visando otimização.
+    // Se tentarmos usar o método de array forEach no array-like "allbuttons", não irá
+    //funcionar, porque não podemos usar métodos de array em não arrays. Nesse caso, temos
+    // que usar o array-prototype.forEach.call() e passar o allbuttons como this e a função de
+    // callback do método forEach que pode receber o elemento e seu index. No exemplo da calculadora,
+    // cada elemento do forEach será cada botão de número
+
+    Array.prototype.forEach.call(allbuttons, function(button){
+      button.addEventListener('click', handleClickNumber)
+    });
+
+    // dentro da função handClickNumber, temos acesso a cada elemento, ou seja, a cada botão - 
+    // o 'this' dentro da função é o próprio botão que está sendo precionado.
+    // Se colocarmos .value, teremos ao valor do botão precionado.
+
+    function handleClickNumber(e){
+      // console.log(this.value);
+      input.value += this.value;
+      // irá pegar o valor do input e concatenar com o valor do botão clicado
+    }
 })();
