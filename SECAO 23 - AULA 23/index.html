@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator - Challenge 23</title>
+
+  <style>
+
+    body {
+      background-color: rgb(184, 184, 181);
+    }
+
+    .app-container {
+      width: 800px;
+      height: 600px;
+
+      margin: auto;
+      margin-top: 70px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+
+    .second-background {
+      width: 300px;
+      height: 350px;
+      background-color: black;
+
+      border-radius: 8px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .second-background h2 {
+      color: white;
+      margin-bottom: 40px;
+    }
+   
+
+    .userInput {
+      text-align: center;
+      margin-bottom: 5px;
+    }
+
+    button {
+      width: 40px;
+      height: 30px;
+
+      text-align: center;
+    }
+    
+    .buttonCE {
+      font-size: 2px;
+    }
+
+   
+
+  </style>
+</head>
+<body>
+  <div class="app-container">
+
+    <div class="second-background">
+      <h2>CALCULADORA</h2>
+
+      <!--Não permite que entre com dados no input - readonly (somente leitura)-->
+
+      <input  class= "userInput" type="text" value="0" readonly>
+      <div class="buttons-panel">
+        <div class="buttons789Division">
+          <button class="button7 buttons-number" value="7">7</button>
+          <button class="button8 buttons-number" value="8">8</button>
+          <button class="button9 buttons-number" value="9">9</button>
+          <button class="buttonDivision" value="/">/</button>
+        </div>
+        <div class="buttons456Multiplication">
+          <button class="button4 buttons-number" value="4">4</button>
+          <button class="button5 buttons-number" value="5">5</button>
+          <button class="button6 buttons-number" value="6">6</button>
+          <button class="buttonMultiplication" value="x">X</button>
+        </div>
+        <div class="buttons123Subtraction">
+          <button class="button1 buttons-number" value="1">1</button>
+          <button class="button2 buttons-number" value="2">2</button>
+          <button class="button3 buttons-number" value="3">3</button>
+          <button class="buttonSubtraction" value="-">-</button>
+        </div>
+        <div class="buttons0CEIqualAddition">
+          <button class="button0" value="0">0</button>
+          <button class="buttonCE" value="0">CE</button>
+          <button class="buttonIqual" value="=">=</button>
+          <button class="buttonAddition" value="+">+</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="desafio23.js"></script>
+  
+</body>
+</html>
