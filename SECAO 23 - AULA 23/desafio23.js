@@ -46,7 +46,7 @@
     const number9 = document.querySelector(".button9");
     const number0 = document.querySelector(".button0");
 
-    const allbuttons = document.querySelectorAll(".buttons-number")
+    const allbuttons = document.querySelectorAll(".allButtons")
 
     const buttonAddition = document.querySelector(".buttonAddition");
     const buttonSubtraction = document.querySelector(".buttonSubtraction");
