@@ -57,6 +57,7 @@
     const buttonIqual = document.querySelector(".buttonIqual");
     const buttonCE = document.querySelector(".buttonCE");
 
+    
     // console.log(number1)
     // console.log(number2)
     // console.log(number3)
@@ -108,6 +109,9 @@
 
     // 2- Dividimos cada responsabilidade para uma função diferente
 
+
+    buttonIqual.addEventListener('click', handleClickIqual)
+
     
     function handleClickNumber(e){
       // console.log(this.value);
@@ -117,6 +121,17 @@
 
     function handleClickOperation(){
       
+      removeLastItemIfOperator()
+      input.value += this.value;  
+
+    }
+
+    function handleClickIqual(){
+      removeLastItemIfOperator();
+      // se, ao apertarmos o '=', o último símbolo for um operator, ele deve ser removido.
+    }
+
+    function removeLastItemIfOperator(){
       if(islastItemOperation()){
         input.value = input.value.slice(0,-1)
       // se o último elemento for igual a um elemento pertencente ao array operations,
@@ -126,7 +141,6 @@
       // Na prática, é pego até o elemento de índice -2. Ou seja, o elemento de índice -1
       // é eliminado.
       }
-      input.value += this.value;  
     }
 
     function islastItemOperation(){
@@ -137,6 +151,8 @@
       });
       console.log(lastItem)
     }
+
+  
 
 
 
