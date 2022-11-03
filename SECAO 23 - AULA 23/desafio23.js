@@ -114,6 +114,7 @@
 
     
     function handleClickNumber(e){
+     
       // console.log(this.value);
       input.value += this.value;
       // irá pegar o valor do input e concatenar com o valor do botão clicado
@@ -121,19 +122,45 @@
 
     function handleClickOperation(){
       
-      removeLastItemIfOperator()
+      input.value = removeLastItemIfOperator(input.value);
       input.value += this.value;  
 
     }
 
     function handleClickIqual(){
-      removeLastItemIfOperator();
+      input.value = removeLastItemIfOperator(input.value);
       // se, ao apertarmos o '=', o último símbolo for um operator, ele deve ser removido.
+      let allValues = input.value.match(/\d+[+x÷-]?/g);
+      // Iremos fazer o match com números(seguidos de quantos números forem) ou com os 
+      // sinais de operadores.
+      console.log(allValues)
+      let result = allValues.reduce(function(accumulated, actual){
+        let firstValue = accumulated.slice(0,-1)
+        let operator= accumulated.split('').pop() 
+        let lastValue = removeLastItemIfOperator(actual);
+        let lastOperator = islastItemOperation(actual) ? actual.split('').pop() : '';
+        switch(operator){
+          case '+':
+            return (Number(firstValue) + Number(lastValue)) + lastOperator;
+          case '-':
+            return (Number(firstValue) - Number(lastValue)) + lastOperator;
+          case 'x':
+            return (Number(firstValue) * Number(lastValue)) + lastOperator;
+          case '÷':
+            return (Number(firstValue) / Number(lastValue)) + lastOperator;
+        } 
+         // pega o primeiro valor, sem o operador.   
+         // transforma o acumulado em uma string, retira o   
+         // último item da string que é o operador,   
+         // e o atribui a variável operator.                                   
+      })
+      input.value = '';
+      input.value += result;
     }
 
-    function removeLastItemIfOperator(){
-      if(islastItemOperation()){
-        input.value = input.value.slice(0,-1)
+    function removeLastItemIfOperator(number){
+      if(islastItemOperation(number)){
+        return number.slice(0,-1);
       // se o último elemento for igual a um elemento pertencente ao array operations,
       // esse item será removido para que o novo(logo abaixo) seja adicionado.
       // Com o método slice, começamos no índice 0 e vamos até o -1, ou seja, o último
@@ -141,11 +168,12 @@
       // Na prática, é pego até o elemento de índice -2. Ou seja, o elemento de índice -1
       // é eliminado.
       }
+      return number;
     }
 
-    function islastItemOperation(){
+    function islastItemOperation(number){
       let operations = ['+','-', 'x', '÷'];
-      let lastItem = input.value.split('').pop();
+      let lastItem = number.split('').pop();
       return operations.some(function(operator){
         return operator === lastItem;
       });
