@@ -19,10 +19,34 @@ Só passe para o próximo problema quando tiver resolvido o anterior :)
 */
 // ?
 
+
+function DOM(elements){    // pode ser 1 elemento ou vários
+  this.element = document.querySelectorAll('elements')
+}
+
+  DOM.prototype.on = function on(eventType, callback){
+    Array.prototype.forEach.call(this.element,function(element){
+      this.element.addEventListener(eventType, callback)
+    })
+     
+  }
+  DOM.prototype.off = function off(eventType, callback){
+    Array.prototype.forEach.call(this.element,function(element){
+      this.element.removeEventListener(eventType, callback)
+    })
+     
+  }
+ 
+  DOM.prototype.get = function get (){
+    return this.element
+  }
+
+
 var $a = new DOM('[data-js="link"]');
 $a.on('click', function(e) {
   e.preventDefault();
   console.log('clicou');
+  $a.off('click', handleclick)
 });
 
 console.log('Elementos selecionados:', $a.get());
